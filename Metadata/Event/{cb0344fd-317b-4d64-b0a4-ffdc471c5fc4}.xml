@@ -275,9 +275,6 @@
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{86a8531f-0ebd-44d0-bc9e-b5e18fbf32b4}">
-		<property name="filterTypeB">
-			<value>9</value>
-		</property>
 		<property name="filterTypeC">
 			<value>9</value>
 		</property>
@@ -300,7 +297,7 @@
 			<value>4193.3999</value>
 		</property>
 		<property name="frequencyE">
-			<value>72.2634354</value>
+			<value>782.910095</value>
 		</property>
 		<property name="qualityA">
 			<value>0.730814755</value>
@@ -315,7 +312,7 @@
 			<value>4.5</value>
 		</property>
 		<property name="qualityE">
-			<value>0.676091015</value>
+			<value>1.08943677</value>
 		</property>
 		<property name="gainB">
 			<value>-12.5</value>
@@ -328,11 +325,17 @@
 		</property>
 	</object>
 	<object class="DelayEffect" id="{5069f82d-40db-4ad1-b188-2ef8592bdcf1}">
+		<property name="delay">
+			<value>140</value>
+		</property>
 		<property name="feedback">
 			<value>11</value>
 		</property>
 		<property name="level">
-			<value>-9</value>
+			<value>-5.5</value>
+		</property>
+		<property name="dryLevel">
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{fcb9c3b3-ced6-49a1-a236-199c5b66444c}">
@@ -340,39 +343,39 @@
 			<value>8</value>
 		</property>
 		<property name="frequencyA">
-			<value>5841.67676</value>
+			<value>2888.00977</value>
 		</property>
 		<property name="qualityA">
 			<value>0.612957776</value>
 		</property>
 		<property name="gainA">
-			<value>-9.00325012</value>
+			<value>-4.84290314</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{66e8a126-ba08-48db-8337-9d36eda4d442}">
 		<property name="decayTime">
-			<value>2000</value>
+			<value>1900</value>
 		</property>
 		<property name="earlyDelay">
-			<value>300</value>
+			<value>162</value>
 		</property>
 		<property name="lateDelay">
-			<value>100</value>
+			<value>88</value>
 		</property>
 		<property name="HFDecayRatio">
-			<value>32.5</value>
+			<value>54</value>
 		</property>
 		<property name="diffusion">
-			<value>43.5</value>
+			<value>79</value>
 		</property>
 		<property name="highCut">
-			<value>2100</value>
+			<value>760</value>
 		</property>
 		<property name="earlyLateMix">
-			<value>82</value>
+			<value>94</value>
 		</property>
 		<property name="wetLevel">
-			<value>-8</value>
+			<value>-12.3000002</value>
 		</property>
 		<property name="dryLevel">
 			<value>-12.5</value>
