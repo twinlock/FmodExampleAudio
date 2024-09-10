@@ -201,10 +201,10 @@
 	</object>
 	<object class="LoopRegion" id="{75e05afe-39e7-463f-84f8-4df7feac7f80}">
 		<property name="position">
-			<value>1.5</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>17</value>
+			<value>17.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{e83065a2-dcd8-47e2-b040-dd2df6cdaa04}</destination>
@@ -227,7 +227,7 @@
 			<value>220</value>
 		</property>
 		<property name="releaseTime">
-			<value>720</value>
+			<value>780</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
@@ -300,8 +300,8 @@
 	<object class="MixerBusEffectChain" id="{807253c8-bd2f-4d0f-9b56-d1ec9170f03a}">
 		<relationship name="effects">
 			<destination>{483ae1da-66a6-4fe2-b7a1-eb91a17ae1f6}</destination>
-			<destination>{8ffa62a1-a559-4588-a7e0-9bf61a4c6344}</destination>
 			<destination>{fbddbef3-a0c2-491e-a2ad-33871eeb0a73}</destination>
+			<destination>{8ffa62a1-a559-4588-a7e0-9bf61a4c6344}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{26da53b4-ab3b-4881-9873-93ca6f89b2a1}" />
@@ -317,10 +317,10 @@
 	</object>
 	<object class="ThreeEQEffect" id="{f541bc09-def6-4f27-a69c-b64dccae33d6}">
 		<property name="lowGain">
-			<value>-16</value>
+			<value>-4</value>
 		</property>
 		<property name="highGain">
-			<value>-10</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{29b4250e-14ac-4c12-af5b-0edc24838512}" />
@@ -440,7 +440,7 @@
 	</object>
 	<object class="DelayEffect" id="{666db6cf-e4ac-4aba-9a6b-159191c6dab6}">
 		<property name="delay">
-			<value>400</value>
+			<value>260</value>
 		</property>
 		<property name="feedback">
 			<value>23</value>
@@ -513,7 +513,6 @@
 			<value>7.63813734</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{8ffa62a1-a559-4588-a7e0-9bf61a4c6344}" />
 	<object class="SFXReverbEffect" id="{fbddbef3-a0c2-491e-a2ad-33871eeb0a73}">
 		<property name="HFReference">
 			<value>2300</value>
@@ -534,4 +533,5 @@
 			<value>-22</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{8ffa62a1-a559-4588-a7e0-9bf61a4c6344}" />
 </objects>
