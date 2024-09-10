@@ -64,6 +64,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{c0749819-348d-4a7b-a1ce-9f6366cc8ca5}" />
 	<object class="GroupTrack" id="{0191bbb6-e966-4caa-9484-4fd41fe04a85}">
@@ -143,7 +146,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{632dbaf9-a66d-4fcb-b57f-18f4f9910019}">
 		<property name="volume">
-			<value>-4</value>
+			<value>0.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -227,6 +230,8 @@
 			<destination>{a89a8c19-1938-44e2-8b5a-bd567d10a88b}</destination>
 			<destination>{3520c852-a406-4413-91ca-97d9961838eb}</destination>
 			<destination>{6fae57a8-c6e8-4b9e-8e32-b8e3ce29a66c}</destination>
+			<destination>{205d699e-0c1e-43a7-b58a-9342734a4c3e}</destination>
+			<destination>{76a9a23a-8cc5-4080-90eb-98d2fc98997c}</destination>
 			<destination>{fea9ae14-26d0-4abc-8322-5830b8670508}</destination>
 		</relationship>
 	</object>
@@ -240,7 +245,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7f88e419-7a27-4213-96a0-d22a71c1ba41}" />
-	<object class="SpatialiserEffect" id="{5d19dd69-dcc6-43b1-910d-5e9fbf43f2b9}" />
+	<object class="SpatialiserEffect" id="{5d19dd69-dcc6-43b1-910d-5e9fbf43f2b9}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{81c6f982-831f-4707-b18e-e869b78b66cc}">
 		<property name="position">
 			<value>0</value>
@@ -325,7 +334,7 @@
 	</object>
 	<object class="CompressorEffect" id="{3520c852-a406-4413-91ca-97d9961838eb}">
 		<property name="threshold">
-			<value>-25.5</value>
+			<value>-26</value>
 		</property>
 		<property name="ratio">
 			<value>1.95000005</value>
@@ -337,7 +346,7 @@
 			<value>140</value>
 		</property>
 		<property name="gain">
-			<value>1.5</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{6fae57a8-c6e8-4b9e-8e32-b8e3ce29a66c}">
@@ -345,10 +354,44 @@
 			<value>8</value>
 		</property>
 		<property name="frequencyA">
-			<value>1427.7749</value>
+			<value>2000</value>
 		</property>
 		<property name="gainA">
 			<value>-13.1635971</value>
+		</property>
+	</object>
+	<object class="DelayEffect" id="{205d699e-0c1e-43a7-b58a-9342734a4c3e}">
+		<property name="delay">
+			<value>120</value>
+		</property>
+		<property name="feedback">
+			<value>36.5</value>
+		</property>
+		<property name="level">
+			<value>-8</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{76a9a23a-8cc5-4080-90eb-98d2fc98997c}">
+		<property name="earlyDelay">
+			<value>300</value>
+		</property>
+		<property name="lateDelay">
+			<value>100</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>21</value>
+		</property>
+		<property name="diffusion">
+			<value>27</value>
+		</property>
+		<property name="highCut">
+			<value>1220</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>82</value>
+		</property>
+		<property name="wetLevel">
+			<value>-24</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fea9ae14-26d0-4abc-8322-5830b8670508}" />
