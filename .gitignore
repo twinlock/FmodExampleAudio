@@ -1,0 +1,5 @@
+.cache/
+.user/
+.unsaved/
+.DS_Store
+Metadata/.DS_Store
