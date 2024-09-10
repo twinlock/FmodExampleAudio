@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{af1dac18-f349-4e57-9459-ed974a43174d}">
+		<property name="assetPath">
+			<value>Footsteps/loud_foot_tap5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.22058333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea976900-b258-4754-9d46-717c1ff84556}</destination>
+		</relationship>
+	</object>
+</objects>

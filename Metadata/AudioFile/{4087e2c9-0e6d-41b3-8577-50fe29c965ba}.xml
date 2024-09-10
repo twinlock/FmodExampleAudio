@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4087e2c9-0e6d-41b3-8577-50fe29c965ba}">
+		<property name="assetPath">
+			<value>Environment/bubbles.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>21.348458333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea976900-b258-4754-9d46-717c1ff84556}</destination>
+		</relationship>
+	</object>
+</objects>
